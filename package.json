@@ -1,10 +1,29 @@
 {
   "name": "excalidraw-mcp-for-codex",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "type": "module",
   "description": "Local-first Excalidraw MCP server for Codex with live canvas sync.",
   "license": "MIT",
+  "author": "rps321",
+  "homepage": "https://github.com/rps321321/excalidraw-mcp-for-codex#readme",
+  "bugs": {
+    "url": "https://github.com/rps321321/excalidraw-mcp-for-codex/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rps321321/excalidraw-mcp-for-codex.git"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/obsidianmcppro"
+    },
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/rps321"
+    }
+  ],
   "keywords": [
     "codex",
     "mcp",

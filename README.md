@@ -3,10 +3,18 @@
 Local-first Model Context Protocol server for building, inspecting, editing, verifying, and exporting Excalidraw diagrams from Codex.
 
 <p align="center">
+  <img src="docs/assets/branding/github-banner-1280x640.png" alt="Excalidraw MCP for Codex banner" width="900">
+  <br>
   <img src="docs/assets/excalidraw-mcp-for-codex-architecture.png" alt="Excalidraw MCP for Codex architecture and workflow" width="900">
   <br>
   <img src="docs/assets/excalidraw-mcp-demo.gif" alt="Excalidraw MCP demo gallery animation" width="720">
 </p>
+
+**Please [star us on GitHub](https://github.com/rps321321/excalidraw-mcp-for-codex), it helps us reach more users!**
+
+[![Patreon](https://img.shields.io/badge/Support_on-Patreon-FF424D?logo=patreon&logoColor=white)](https://patreon.com/obsidianmcppro) [![Ko-fi](https://img.shields.io/badge/Tip_on-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/rps321)
+
+**Support this project.** Excalidraw MCP for Codex is free and open-source. If it saves you time, consider [becoming a patron](https://patreon.com/obsidianmcppro) for ongoing support, or [tipping on Ko-fi](https://ko-fi.com/rps321) for a one-time thanks. Supporters help fund testing across MCP clients, diagram export fixes, and new importers.
 
 The project is designed as a canvas toolkit, not a one-shot prompt-to-diagram generator. The intended loop is:
 
@@ -265,6 +273,16 @@ npm run examples:generate
 ```
 
 The script writes PNG, SVG, and `.excalidraw` files under `examples/`, a golden manifest for visual regression, and a short demo GIF at `docs/assets/excalidraw-mcp-demo.gif` when `ffmpeg` is available.
+
+## Branding Assets
+
+Generated repo and package artwork lives under:
+
+```text
+docs/assets/branding/
+```
+
+It includes GitHub banners, social preview art, package icons from `32px` to `1024px`, README hero images, and workflow feature tiles.
 
 ## Performance Benchmark
 
