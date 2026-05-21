@@ -1,0 +1,307 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex",
+  "elements": [
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1f2937",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "role": "title",
+        "template": "flowchart"
+      },
+      "id": "template-title",
+      "type": "text",
+      "x": 80,
+      "y": 68,
+      "width": 720,
+      "height": 40,
+      "text": "Flowchart",
+      "version": 1,
+      "updated": 1779355346164
+    },
+    {
+      "backgroundColor": "#e0f2fe",
+      "strokeColor": "#0369a1",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "start",
+      "type": "rectangle",
+      "x": 80,
+      "y": 140,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Start",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346166,
+      "boundElements": [
+        {
+          "id": "start-to-step-1",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#dcfce7",
+      "strokeColor": "#15803d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "step-1",
+      "type": "rectangle",
+      "x": 396,
+      "y": 140,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Step 1",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346166,
+      "boundElements": [
+        {
+          "id": "start-to-step-1",
+          "type": "arrow"
+        },
+        {
+          "id": "step-1-to-decision",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#fef9c3",
+      "strokeColor": "#a16207",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "decision",
+      "type": "diamond",
+      "x": 712,
+      "y": 140,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Decision?",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346166,
+      "boundElements": [
+        {
+          "id": "step-1-to-decision",
+          "type": "arrow"
+        },
+        {
+          "id": "decision-to-finish",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#fce7f3",
+      "strokeColor": "#be185d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "finish",
+      "type": "rectangle",
+      "x": 1028,
+      "y": 140,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Finish",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346166,
+      "boundElements": [
+        {
+          "id": "decision-to-finish",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "start-to-step-1",
+      "type": "arrow",
+      "x": 308,
+      "y": 188,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "start"
+      },
+      "endBinding": {
+        "elementId": "step-1"
+      },
+      "startElementId": "start",
+      "endElementId": "step-1",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355346166
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "step-1-to-decision",
+      "type": "arrow",
+      "x": 624,
+      "y": 188,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "step-1"
+      },
+      "endBinding": {
+        "elementId": "decision"
+      },
+      "startElementId": "step-1",
+      "endElementId": "decision",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355346166
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "decision-to-finish",
+      "type": "arrow",
+      "x": 940,
+      "y": 188,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "decision"
+      },
+      "endBinding": {
+        "elementId": "finish"
+      },
+      "startElementId": "decision",
+      "endElementId": "finish",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355346166
+    }
+  ],
+  "appState": {
+    "scrollX": -32,
+    "scrollY": 28,
+    "zoom": 1
+  },
+  "files": {}
+}

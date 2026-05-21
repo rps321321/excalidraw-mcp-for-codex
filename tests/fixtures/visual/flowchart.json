@@ -1,0 +1,61 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex/tests/fixtures/visual/flowchart",
+  "metadata": {
+    "description": "Three-step flowchart fixture for basic rendering and arrow binding checks."
+  },
+  "elements": [
+    {
+      "id": "flow-intake",
+      "type": "rectangle",
+      "x": 80,
+      "y": 140,
+      "width": 190,
+      "height": 84,
+      "label": { "text": "Intake", "fontSize": 20 },
+      "backgroundColor": "#e7f5ff",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "flow-process",
+      "type": "rectangle",
+      "x": 350,
+      "y": 140,
+      "width": 190,
+      "height": 84,
+      "label": { "text": "Process", "fontSize": 20 },
+      "backgroundColor": "#fff4e6",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "flow-publish",
+      "type": "rectangle",
+      "x": 620,
+      "y": 140,
+      "width": 190,
+      "height": 84,
+      "label": { "text": "Publish", "fontSize": 20 },
+      "backgroundColor": "#ebfbee",
+      "strokeColor": "#2b8a3e"
+    },
+    {
+      "id": "flow-intake-to-process",
+      "type": "arrow",
+      "startElementId": "flow-intake",
+      "endElementId": "flow-process"
+    },
+    {
+      "id": "flow-process-to-publish",
+      "type": "arrow",
+      "startElementId": "flow-process",
+      "endElementId": "flow-publish"
+    }
+  ],
+  "appState": {
+    "scrollX": 0,
+    "scrollY": 0,
+    "zoom": 1
+  },
+  "files": {}
+}

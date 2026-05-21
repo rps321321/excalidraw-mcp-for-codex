@@ -1,0 +1,39 @@
+{
+  "name": "excalidraw-mcp-for-codex",
+  "version": "0.1.0",
+  "description": "Local-first Excalidraw MCP server for Codex with live canvas sync, diagram QA, exports, templates, and repo diagrams.",
+  "author": {
+    "name": "Excalidraw MCP for Codex contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "mcp",
+    "excalidraw",
+    "diagrams",
+    "documentation"
+  ],
+  "skills": "./.agents/skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Excalidraw MCP for Codex",
+    "shortDescription": "Create, inspect, polish, and export Excalidraw diagrams from Codex.",
+    "longDescription": "A local-first Codex plugin package for an Excalidraw MCP server with a live browser canvas, screenshot/export feedback loop, auto-layout, templates, Mermaid/repo import, semantic metadata, sessions, and GitHub documentation asset generation.",
+    "developerName": "Excalidraw MCP for Codex contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write",
+      "MCP"
+    ],
+    "defaultPrompt": [
+      "Create a README architecture diagram.",
+      "Inspect and polish this Excalidraw scene.",
+      "Generate a repo architecture map."
+    ],
+    "brandColor": "#6965DB",
+    "screenshots": [
+      "./docs/assets/excalidraw-mcp-for-codex-architecture.png"
+    ]
+  }
+}

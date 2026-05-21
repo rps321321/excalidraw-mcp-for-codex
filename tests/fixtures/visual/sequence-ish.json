@@ -1,0 +1,108 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex/tests/fixtures/visual/sequence-ish",
+  "metadata": {
+    "description": "Sequence-like interaction fixture with lifelines and horizontal messages."
+  },
+  "elements": [
+    {
+      "id": "seq-user",
+      "type": "rectangle",
+      "x": 90,
+      "y": 80,
+      "width": 150,
+      "height": 64,
+      "label": { "text": "User", "fontSize": 18 },
+      "backgroundColor": "#e7f5ff",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "seq-api",
+      "type": "rectangle",
+      "x": 375,
+      "y": 80,
+      "width": 150,
+      "height": 64,
+      "label": { "text": "API", "fontSize": 18 },
+      "backgroundColor": "#f8f9fa",
+      "strokeColor": "#495057"
+    },
+    {
+      "id": "seq-worker",
+      "type": "rectangle",
+      "x": 660,
+      "y": 80,
+      "width": 150,
+      "height": 64,
+      "label": { "text": "Worker", "fontSize": 18 },
+      "backgroundColor": "#ebfbee",
+      "strokeColor": "#2b8a3e"
+    },
+    {
+      "id": "seq-user-line",
+      "type": "line",
+      "x": 165,
+      "y": 160,
+      "points": [[0, 0], [0, 330]],
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "seq-api-line",
+      "type": "line",
+      "x": 450,
+      "y": 160,
+      "points": [[0, 0], [0, 330]],
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "seq-worker-line",
+      "type": "line",
+      "x": 735,
+      "y": 160,
+      "points": [[0, 0], [0, 330]],
+      "strokeColor": "#868e96",
+      "strokeStyle": "dashed"
+    },
+    {
+      "id": "seq-submit",
+      "type": "arrow",
+      "x": 170,
+      "y": 215,
+      "points": [[0, 0], [270, 0]],
+      "label": { "text": "submit request" }
+    },
+    {
+      "id": "seq-enqueue",
+      "type": "arrow",
+      "x": 455,
+      "y": 300,
+      "points": [[0, 0], [270, 0]],
+      "label": { "text": "enqueue job" }
+    },
+    {
+      "id": "seq-done",
+      "type": "arrow",
+      "x": 735,
+      "y": 385,
+      "points": [[0, 0], [-270, 0]],
+      "label": { "text": "job complete" }
+    },
+    {
+      "id": "seq-response",
+      "type": "arrow",
+      "x": 450,
+      "y": 455,
+      "points": [[0, 0], [-270, 0]],
+      "label": { "text": "show status" }
+    }
+  ],
+  "appState": {
+    "scrollX": 0,
+    "scrollY": 0,
+    "zoom": 1
+  },
+  "files": {}
+}

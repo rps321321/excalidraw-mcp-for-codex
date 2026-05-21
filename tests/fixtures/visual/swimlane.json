@@ -1,0 +1,119 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex/tests/fixtures/visual/swimlane",
+  "metadata": {
+    "description": "Swimlane process fixture with light frames, lane labels, and cross-lane handoffs."
+  },
+  "elements": [
+    {
+      "id": "lane-sales",
+      "type": "frame",
+      "x": 60,
+      "y": 80,
+      "width": 840,
+      "height": 150,
+      "name": "Sales",
+      "backgroundColor": "#f8f9fa",
+      "strokeColor": "#868e96"
+    },
+    {
+      "id": "lane-ops",
+      "type": "frame",
+      "x": 60,
+      "y": 250,
+      "width": 840,
+      "height": 150,
+      "name": "Operations",
+      "backgroundColor": "#f8f9fa",
+      "strokeColor": "#868e96"
+    },
+    {
+      "id": "lane-label-sales",
+      "type": "text",
+      "x": 85,
+      "y": 110,
+      "width": 120,
+      "height": 32,
+      "text": "Sales"
+    },
+    {
+      "id": "lane-label-ops",
+      "type": "text",
+      "x": 85,
+      "y": 280,
+      "width": 150,
+      "height": 32,
+      "text": "Operations"
+    },
+    {
+      "id": "lane-qualify",
+      "type": "rectangle",
+      "x": 240,
+      "y": 118,
+      "width": 175,
+      "height": 76,
+      "label": { "text": "Qualify lead", "fontSize": 18 },
+      "backgroundColor": "#e7f5ff",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "lane-handoff",
+      "type": "rectangle",
+      "x": 500,
+      "y": 118,
+      "width": 175,
+      "height": 76,
+      "label": { "text": "Handoff", "fontSize": 18 },
+      "backgroundColor": "#fff4e6",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "lane-fulfill",
+      "type": "rectangle",
+      "x": 500,
+      "y": 292,
+      "width": 175,
+      "height": 76,
+      "label": { "text": "Fulfill order", "fontSize": 18 },
+      "backgroundColor": "#ebfbee",
+      "strokeColor": "#2b8a3e"
+    },
+    {
+      "id": "lane-confirm",
+      "type": "rectangle",
+      "x": 720,
+      "y": 292,
+      "width": 150,
+      "height": 76,
+      "label": { "text": "Confirm", "fontSize": 18 },
+      "backgroundColor": "#e7f5ff",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "lane-qualify-to-handoff",
+      "type": "arrow",
+      "startElementId": "lane-qualify",
+      "endElementId": "lane-handoff"
+    },
+    {
+      "id": "lane-handoff-to-fulfill",
+      "type": "arrow",
+      "startElementId": "lane-handoff",
+      "endElementId": "lane-fulfill",
+      "label": { "text": "accepted" }
+    },
+    {
+      "id": "lane-fulfill-to-confirm",
+      "type": "arrow",
+      "startElementId": "lane-fulfill",
+      "endElementId": "lane-confirm"
+    }
+  ],
+  "appState": {
+    "scrollX": 0,
+    "scrollY": 0,
+    "zoom": 1
+  },
+  "files": {}
+}

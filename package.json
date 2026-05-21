@@ -1,0 +1,82 @@
+{
+  "name": "excalidraw-mcp-for-codex",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Local-first Excalidraw MCP server for Codex with live canvas sync.",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "mcp",
+    "excalidraw",
+    "diagrams",
+    "model-context-protocol"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "excalidraw-mcp-for-codex": "dist/server/mcp/index.js"
+  },
+  "files": [
+    "dist",
+    ".agents/skills/excalidraw-codex",
+    ".codex-plugin",
+    ".mcp.json",
+    "examples",
+    "docs/assets",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "build": "npm run build:web && npm run build:server",
+    "build:server": "tsc -p tsconfig.server.json",
+    "build:web": "vite build",
+    "bench:scenes": "node scripts/benchmark-scenes.mjs",
+    "dev:web": "vite --host 127.0.0.1",
+    "examples:generate": "node scripts/generate-examples.mjs",
+    "setup:codex": "node scripts/setup-codex.mjs",
+    "setup:publish-hooks": "git config core.hooksPath .githooks",
+    "publish:on-push": "node scripts/publish-on-push.mjs",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc -p tsconfig.server.json --noEmit && tsc -p tsconfig.web.json --noEmit",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@dagrejs/dagre": "^3.0.0",
+    "@excalidraw/excalidraw": "^0.18.0",
+    "@excalidraw/mermaid-to-excalidraw": "^2.2.2",
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "express": "^5.1.0",
+    "jsdom": "^29.1.1",
+    "open": "^10.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ws": "^8.18.3",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/express": "^5.0.5",
+    "@types/jsdom": "^28.0.3",
+    "@types/node": "^24.10.1",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.7",
+    "vitest": "^4.0.15"
+  },
+  "overrides": {
+    "lodash-es": "^4.18.1",
+    "@excalidraw/excalidraw": {
+      "nanoid": "^3.3.12"
+    },
+    "@excalidraw/mermaid-to-excalidraw": {
+      "nanoid": "^5.1.6"
+    }
+  }
+}

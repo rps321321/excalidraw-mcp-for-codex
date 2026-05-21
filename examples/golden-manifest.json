@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-05-21T09:22:27.777Z",
+  "scenes": [
+    {
+      "name": "repo-architecture",
+      "title": "Repository Architecture",
+      "scene": "examples/repo-architecture.excalidraw",
+      "png": {
+        "path": "examples/repo-architecture.png",
+        "bytes": 200811,
+        "width": 1034,
+        "height": 1588
+      },
+      "svg": {
+        "path": "examples/repo-architecture.svg",
+        "bytes": 36833
+      }
+    },
+    {
+      "name": "mcp-tool-map",
+      "title": "MCP Tool Map",
+      "scene": "examples/mcp-tool-map.excalidraw",
+      "png": {
+        "path": "examples/mcp-tool-map.png",
+        "bytes": 77867,
+        "width": 1651,
+        "height": 269
+      },
+      "svg": {
+        "path": "examples/mcp-tool-map.svg",
+        "bytes": 18555
+      }
+    },
+    {
+      "name": "c4-container",
+      "title": "C4 Container Diagram",
+      "scene": "examples/c4-container.excalidraw",
+      "png": {
+        "path": "examples/c4-container.png",
+        "bytes": 72815,
+        "width": 1238,
+        "height": 408
+      },
+      "svg": {
+        "path": "examples/c4-container.svg",
+        "bytes": 22254
+      }
+    },
+    {
+      "name": "flowchart",
+      "title": "Three Box Flowchart",
+      "scene": "examples/flowchart.excalidraw",
+      "png": {
+        "path": "examples/flowchart.png",
+        "bytes": 47887,
+        "width": 1216,
+        "height": 216
+      },
+      "svg": {
+        "path": "examples/flowchart.svg",
+        "bytes": 12546
+      }
+    },
+    {
+      "name": "mermaid-before",
+      "title": "Mermaid Conversion Before Normalize",
+      "scene": "examples/mermaid-before.excalidraw",
+      "png": {
+        "path": "examples/mermaid-before.png",
+        "bytes": 54992,
+        "width": 1028,
+        "height": 308
+      },
+      "svg": {
+        "path": "examples/mermaid-before.svg",
+        "bytes": 15785
+      }
+    },
+    {
+      "name": "mermaid-after",
+      "title": "Mermaid Conversion After Normalize",
+      "scene": "examples/mermaid-after.excalidraw",
+      "png": {
+        "path": "examples/mermaid-after.png",
+        "bytes": 84559,
+        "width": 1983,
+        "height": 336
+      },
+      "svg": {
+        "path": "examples/mermaid-after.svg",
+        "bytes": 15735
+      }
+    },
+    {
+      "name": "readme-hero",
+      "title": "README Hero Diagram",
+      "scene": "examples/readme-hero.excalidraw",
+      "png": {
+        "path": "examples/readme-hero.png",
+        "bytes": 74280,
+        "width": 1542,
+        "height": 269
+      },
+      "svg": {
+        "path": "examples/readme-hero.svg",
+        "bytes": 19892
+      }
+    }
+  ]
+}

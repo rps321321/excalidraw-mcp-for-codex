@@ -1,0 +1,222 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex",
+  "elements": [
+    {
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "frame-02-bg",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "version": 1,
+      "updated": 1779355347818
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#0f172a",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "frame-02-title",
+      "type": "rectangle",
+      "x": 48,
+      "y": 42,
+      "width": 864,
+      "height": 82,
+      "label": {
+        "text": "Tool map agents can actually use",
+        "fontSize": 30
+      },
+      "version": 1,
+      "updated": 1779355347818
+    },
+    {
+      "backgroundColor": "#dbeafe",
+      "strokeColor": "#2563eb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "crud",
+      "type": "rectangle",
+      "x": 80,
+      "y": 150,
+      "width": 220,
+      "height": 154,
+      "label": {
+        "text": "Element CRUD\ncreate\nupdate\ndelete",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347818
+    },
+    {
+      "backgroundColor": "#dcfce7",
+      "strokeColor": "#16a34a",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "inspect",
+      "type": "rectangle",
+      "x": 375,
+      "y": 150,
+      "width": 210,
+      "height": 154,
+      "label": {
+        "text": "Inspect\nquery\ndescribe\ndiff",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347818
+    },
+    {
+      "backgroundColor": "#fef3c7",
+      "strokeColor": "#ca8a04",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "layout",
+      "type": "rectangle",
+      "x": 670,
+      "y": 150,
+      "width": 210,
+      "height": 154,
+      "label": {
+        "text": "Layout\nDagre\npolish\nroute",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347818
+    },
+    {
+      "backgroundColor": "#fce7f3",
+      "strokeColor": "#be185d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "import",
+      "type": "rectangle",
+      "x": 80,
+      "y": 318,
+      "width": 210,
+      "height": 154,
+      "label": {
+        "text": "Imports\nOpenAPI\nSQL\nC4",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347818
+    },
+    {
+      "backgroundColor": "#ede9fe",
+      "strokeColor": "#7c3aed",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "verify",
+      "type": "rectangle",
+      "x": 375,
+      "y": 318,
+      "width": 210,
+      "height": 154,
+      "label": {
+        "text": "Verify\nscreenshot\nlint\ntests",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347818
+    },
+    {
+      "backgroundColor": "#ccfbf1",
+      "strokeColor": "#0f766e",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "export",
+      "type": "rectangle",
+      "x": 670,
+      "y": 318,
+      "width": 210,
+      "height": 154,
+      "label": {
+        "text": "Export\nPNG\nSVG\nscene",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347818
+    }
+  ],
+  "appState": {
+    "scrollX": 48,
+    "scrollY": 96,
+    "zoom": 1
+  },
+  "files": {}
+}

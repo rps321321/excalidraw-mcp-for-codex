@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-05-21T09:14:05.873Z",
+  "results": [
+    {
+      "count": 100,
+      "createMs": 3.72,
+      "layoutMs": 23,
+      "patchMs": 3.39,
+      "exportSceneMs": 0.27,
+      "heapUsedMb": 10.61,
+      "jsonBytes": 45698,
+      "layoutUpdates": 100
+    },
+    {
+      "count": 500,
+      "createMs": 7.88,
+      "layoutMs": 49.47,
+      "patchMs": 26.48,
+      "exportSceneMs": 1.14,
+      "heapUsedMb": 23.75,
+      "jsonBytes": 230059,
+      "layoutUpdates": 500
+    },
+    {
+      "count": 1000,
+      "createMs": 13.51,
+      "layoutMs": 114.8,
+      "patchMs": 51.86,
+      "exportSceneMs": 2.39,
+      "heapUsedMb": 47.1,
+      "jsonBytes": 460928,
+      "layoutUpdates": 1000
+    },
+    {
+      "count": 5000,
+      "createMs": 69.89,
+      "layoutMs": 659.43,
+      "patchMs": 354.32,
+      "exportSceneMs": 12.41,
+      "heapUsedMb": 42.75,
+      "jsonBytes": 2318509,
+      "layoutUpdates": 5000
+    }
+  ]
+}

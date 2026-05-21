@@ -1,0 +1,454 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex",
+  "elements": [
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#111827",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "role": "title",
+        "template": "github-readme-hero"
+      },
+      "id": "template-title",
+      "type": "text",
+      "x": 80,
+      "y": 68,
+      "width": 720,
+      "height": 40,
+      "text": "Github Readme Hero",
+      "version": 1,
+      "updated": 1779355347717
+    },
+    {
+      "backgroundColor": "#dbeafe",
+      "strokeColor": "#1d4ed8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "prompt",
+      "type": "rectangle",
+      "x": 80,
+      "y": 140,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Prompt",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355347720,
+      "boundElements": [
+        {
+          "id": "prompt-to-agent",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#dcfce7",
+      "strokeColor": "#15803d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "agent",
+      "type": "rectangle",
+      "x": 396,
+      "y": 140,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Codex agent",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355347720,
+      "boundElements": [
+        {
+          "id": "prompt-to-agent",
+          "type": "arrow"
+        },
+        {
+          "id": "agent-to-mcp",
+          "type": "arrow"
+        },
+        {
+          "id": "assets-to-agent",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#fef3c7",
+      "strokeColor": "#b45309",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "mcp",
+      "type": "rectangle",
+      "x": 712,
+      "y": 193,
+      "width": 230,
+      "height": 96,
+      "label": {
+        "text": "Excalidraw MCP",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355347720,
+      "boundElements": [
+        {
+          "id": "agent-to-mcp",
+          "type": "arrow"
+        },
+        {
+          "id": "mcp-to-canvas",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#fce7f3",
+      "strokeColor": "#be185d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "canvas",
+      "type": "rectangle",
+      "x": 1038,
+      "y": 193,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Live canvas",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355347720,
+      "boundElements": [
+        {
+          "id": "mcp-to-canvas",
+          "type": "arrow"
+        },
+        {
+          "id": "canvas-to-assets",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#ede9fe",
+      "strokeColor": "#6d28d9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "assets",
+      "type": "rectangle",
+      "x": 1354,
+      "y": 140,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "README assets",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355347720,
+      "boundElements": [
+        {
+          "id": "canvas-to-assets",
+          "type": "arrow"
+        },
+        {
+          "id": "assets-to-agent",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "prompt-to-agent",
+      "type": "arrow",
+      "x": 308,
+      "y": 188,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "prompt"
+      },
+      "endBinding": {
+        "elementId": "agent"
+      },
+      "startElementId": "prompt",
+      "endElementId": "agent",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355347720
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "agent-to-mcp",
+      "type": "arrow",
+      "x": 624,
+      "y": 188,
+      "width": 80,
+      "height": 53,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          40,
+          53
+        ],
+        [
+          80,
+          53
+        ]
+      ],
+      "startBinding": {
+        "elementId": "agent"
+      },
+      "endBinding": {
+        "elementId": "mcp"
+      },
+      "startElementId": "agent",
+      "endElementId": "mcp",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355347720
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "mcp-to-canvas",
+      "type": "arrow",
+      "x": 950,
+      "y": 241,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "mcp"
+      },
+      "endBinding": {
+        "elementId": "canvas"
+      },
+      "startElementId": "mcp",
+      "endElementId": "canvas",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355347720
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "canvas-to-assets",
+      "type": "arrow",
+      "x": 1266,
+      "y": 241,
+      "width": 80,
+      "height": 53,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          40,
+          -53
+        ],
+        [
+          80,
+          -53
+        ]
+      ],
+      "startBinding": {
+        "elementId": "canvas"
+      },
+      "endBinding": {
+        "elementId": "assets"
+      },
+      "startElementId": "canvas",
+      "endElementId": "assets",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355347720
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "assets-to-agent",
+      "type": "arrow",
+      "x": 1346,
+      "y": 188,
+      "width": 722,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -682,
+          0
+        ],
+        [
+          -722,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "assets"
+      },
+      "endBinding": {
+        "elementId": "agent"
+      },
+      "startElementId": "assets",
+      "endElementId": "agent",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "label": {
+        "text": "inspect/fix"
+      },
+      "version": 2,
+      "updated": 1779355347720
+    }
+  ],
+  "appState": {
+    "scrollX": -32,
+    "scrollY": 28,
+    "zoom": 1
+  },
+  "files": {}
+}

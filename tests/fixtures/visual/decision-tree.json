@@ -1,0 +1,117 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex/tests/fixtures/visual/decision-tree",
+  "metadata": {
+    "description": "Decision tree fixture for branch spacing, diamond labels, and outcome readability."
+  },
+  "elements": [
+    {
+      "id": "decision-start",
+      "type": "diamond",
+      "x": 380,
+      "y": 80,
+      "width": 190,
+      "height": 110,
+      "label": { "text": "Eligible?", "fontSize": 20 },
+      "backgroundColor": "#fff4e6",
+      "strokeColor": "#e8590c"
+    },
+    {
+      "id": "decision-auto",
+      "type": "rectangle",
+      "x": 120,
+      "y": 275,
+      "width": 205,
+      "height": 86,
+      "label": { "text": "Auto approve", "fontSize": 18 },
+      "backgroundColor": "#ebfbee",
+      "strokeColor": "#2b8a3e"
+    },
+    {
+      "id": "decision-review",
+      "type": "diamond",
+      "x": 390,
+      "y": 260,
+      "width": 190,
+      "height": 110,
+      "label": { "text": "Needs review?", "fontSize": 18 },
+      "backgroundColor": "#e7f5ff",
+      "strokeColor": "#1971c2"
+    },
+    {
+      "id": "decision-reject",
+      "type": "rectangle",
+      "x": 675,
+      "y": 275,
+      "width": 205,
+      "height": 86,
+      "label": { "text": "Reject", "fontSize": 18 },
+      "backgroundColor": "#fff5f5",
+      "strokeColor": "#c92a2a"
+    },
+    {
+      "id": "decision-manual",
+      "type": "rectangle",
+      "x": 280,
+      "y": 460,
+      "width": 205,
+      "height": 86,
+      "label": { "text": "Manual review", "fontSize": 18 },
+      "backgroundColor": "#f8f9fa",
+      "strokeColor": "#495057"
+    },
+    {
+      "id": "decision-waitlist",
+      "type": "rectangle",
+      "x": 555,
+      "y": 460,
+      "width": 205,
+      "height": 86,
+      "label": { "text": "Waitlist", "fontSize": 18 },
+      "backgroundColor": "#f3f0ff",
+      "strokeColor": "#6741d9"
+    },
+    {
+      "id": "decision-start-auto",
+      "type": "arrow",
+      "startElementId": "decision-start",
+      "endElementId": "decision-auto",
+      "label": { "text": "yes" }
+    },
+    {
+      "id": "decision-start-review",
+      "type": "arrow",
+      "startElementId": "decision-start",
+      "endElementId": "decision-review",
+      "label": { "text": "maybe" }
+    },
+    {
+      "id": "decision-start-reject",
+      "type": "arrow",
+      "startElementId": "decision-start",
+      "endElementId": "decision-reject",
+      "label": { "text": "no" }
+    },
+    {
+      "id": "decision-review-manual",
+      "type": "arrow",
+      "startElementId": "decision-review",
+      "endElementId": "decision-manual",
+      "label": { "text": "yes" }
+    },
+    {
+      "id": "decision-review-waitlist",
+      "type": "arrow",
+      "startElementId": "decision-review",
+      "endElementId": "decision-waitlist",
+      "label": { "text": "no" }
+    }
+  ],
+  "appState": {
+    "scrollX": 0,
+    "scrollY": 0,
+    "zoom": 1
+  },
+  "files": {}
+}

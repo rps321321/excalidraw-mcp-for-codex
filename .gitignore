@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.excalidraw-mcp/
+.env
+.env.*
+!.env.example
+

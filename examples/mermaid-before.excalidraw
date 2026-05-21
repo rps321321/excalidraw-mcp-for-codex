@@ -1,0 +1,418 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex",
+  "elements": [
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "User",
+      "type": "rectangle",
+      "x": 56,
+      "y": 244,
+      "width": 193,
+      "height": 69,
+      "label": {
+        "text": "Codex Agent",
+        "fontSize": 20
+      },
+      "version": 1,
+      "updated": 1779355347567,
+      "boundElements": [
+        {
+          "id": "User_MCP",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "MCP",
+      "type": "rectangle",
+      "x": 248.5,
+      "y": 244,
+      "width": 245,
+      "height": 69,
+      "label": {
+        "text": "Excalidraw MCP",
+        "fontSize": 20
+      },
+      "version": 1,
+      "updated": 1779355347567,
+      "boundElements": [
+        {
+          "id": "User_MCP",
+          "type": "arrow"
+        },
+        {
+          "id": "MCP_Canvas",
+          "type": "arrow"
+        },
+        {
+          "id": "MCP_Export",
+          "type": "arrow"
+        },
+        {
+          "id": "Verify_MCP",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "Canvas",
+      "type": "rectangle",
+      "x": 441,
+      "y": 104,
+      "width": 193,
+      "height": 69,
+      "label": {
+        "text": "Live Canvas",
+        "fontSize": 20
+      },
+      "version": 1,
+      "updated": 1779355347567,
+      "boundElements": [
+        {
+          "id": "MCP_Canvas",
+          "type": "arrow"
+        },
+        {
+          "id": "Canvas_Verify",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "Export",
+      "type": "rectangle",
+      "x": 441,
+      "y": 244,
+      "width": 280,
+      "height": 69,
+      "label": {
+        "text": "PNG / SVG / JSON",
+        "fontSize": 20
+      },
+      "version": 1,
+      "updated": 1779355347567,
+      "boundElements": [
+        {
+          "id": "MCP_Export",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "Verify",
+      "type": "rectangle",
+      "x": 633.5,
+      "y": 217.75,
+      "width": 402.5,
+      "height": 69,
+      "label": {
+        "text": "Screenshot Verification",
+        "fontSize": 20
+      },
+      "version": 1,
+      "updated": 1779355347567,
+      "boundElements": [
+        {
+          "id": "Canvas_Verify",
+          "type": "arrow"
+        },
+        {
+          "id": "Verify_MCP",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 2
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "User_MCP",
+      "type": "arrow",
+      "x": 257,
+      "y": 278.5,
+      "width": 16.5,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -16.5,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "User"
+      },
+      "endBinding": {
+        "elementId": "MCP"
+      },
+      "startElementId": "User",
+      "endElementId": "MCP",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347567
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 2
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "MCP_Canvas",
+      "type": "arrow",
+      "x": 319.05,
+      "y": 244,
+      "width": 114.95,
+      "height": 113.75,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          78.2,
+          -113.75
+        ],
+        [
+          114.95,
+          -113.75
+        ]
+      ],
+      "startBinding": {
+        "elementId": "MCP"
+      },
+      "endBinding": {
+        "elementId": "Canvas"
+      },
+      "startElementId": "MCP",
+      "endElementId": "Canvas",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347567
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 2
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "MCP_Export",
+      "type": "arrow",
+      "x": 501.5,
+      "y": 278.5,
+      "width": 68.5,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -68.5,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "MCP"
+      },
+      "endBinding": {
+        "elementId": "Export"
+      },
+      "startElementId": "MCP",
+      "endElementId": "Export",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347567
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 2
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "Canvas_Verify",
+      "type": "arrow",
+      "x": 546,
+      "y": 130.25,
+      "width": 113.27,
+      "height": 82.16,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          43.75,
+          0
+        ],
+        [
+          113.27,
+          82.16
+        ]
+      ],
+      "startBinding": {
+        "elementId": "Canvas"
+      },
+      "endBinding": {
+        "elementId": "Verify"
+      },
+      "startElementId": "Canvas",
+      "endElementId": "Verify",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347567
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2.65,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 2
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "Verify_MCP",
+      "type": "arrow",
+      "x": 663.79,
+      "y": 270.25,
+      "width": 328.73,
+      "height": 87.5,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -74.04,
+          87.5
+        ],
+        [
+          -170.29,
+          87.5
+        ],
+        [
+          -266.54,
+          87.5
+        ],
+        [
+          -328.73,
+          30.96
+        ]
+      ],
+      "startBinding": {
+        "elementId": "Verify"
+      },
+      "endBinding": {
+        "elementId": "MCP"
+      },
+      "startElementId": "Verify",
+      "endElementId": "MCP",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347567
+    }
+  ],
+  "appState": {
+    "scrollX": -8,
+    "scrollY": -8,
+    "zoom": 1
+  },
+  "files": {}
+}

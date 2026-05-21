@@ -1,0 +1,426 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex",
+  "elements": [
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#111827",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "role": "title",
+        "template": "c4-container"
+      },
+      "id": "template-title",
+      "type": "text",
+      "x": 80,
+      "y": 68,
+      "width": 720,
+      "height": 40,
+      "text": "C4 Container",
+      "version": 1,
+      "updated": 1779355346109
+    },
+    {
+      "backgroundColor": "#dbeafe",
+      "strokeColor": "#1d4ed8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "person"
+      },
+      "id": "person",
+      "type": "ellipse",
+      "x": 80,
+      "y": 236,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "User",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346111,
+      "boundElements": [
+        {
+          "id": "person-to-web-app",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#dcfce7",
+      "strokeColor": "#15803d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "container"
+      },
+      "id": "web-app",
+      "type": "rectangle",
+      "x": 396,
+      "y": 236,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Web app",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346111,
+      "boundElements": [
+        {
+          "id": "person-to-web-app",
+          "type": "arrow"
+        },
+        {
+          "id": "web-app-to-api",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#fef3c7",
+      "strokeColor": "#b45309",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "container"
+      },
+      "id": "api",
+      "type": "rectangle",
+      "x": 712,
+      "y": 236,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "API service",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346111,
+      "boundElements": [
+        {
+          "id": "web-app-to-api",
+          "type": "arrow"
+        },
+        {
+          "id": "api-to-db",
+          "type": "arrow"
+        },
+        {
+          "id": "api-to-external",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#fce7f3",
+      "strokeColor": "#be185d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "database"
+      },
+      "id": "db",
+      "type": "rectangle",
+      "x": 1039,
+      "y": 332,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "Database",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346111,
+      "boundElements": [
+        {
+          "id": "api-to-db",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#ede9fe",
+      "strokeColor": "#6d28d9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "external-system"
+      },
+      "id": "external",
+      "type": "rectangle",
+      "x": 1028,
+      "y": 140,
+      "width": 242,
+      "height": 96,
+      "label": {
+        "text": "External system",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355346111,
+      "boundElements": [
+        {
+          "id": "api-to-external",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "person-to-web-app",
+      "type": "arrow",
+      "x": 308,
+      "y": 284,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "person"
+      },
+      "endBinding": {
+        "elementId": "web-app"
+      },
+      "startElementId": "person",
+      "endElementId": "web-app",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "label": {
+        "text": "uses"
+      },
+      "version": 2,
+      "updated": 1779355346111
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "web-app-to-api",
+      "type": "arrow",
+      "x": 624,
+      "y": 284,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "web-app"
+      },
+      "endBinding": {
+        "elementId": "api"
+      },
+      "startElementId": "web-app",
+      "endElementId": "api",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "label": {
+        "text": "calls"
+      },
+      "version": 2,
+      "updated": 1779355346111
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "api-to-db",
+      "type": "arrow",
+      "x": 940,
+      "y": 284,
+      "width": 91,
+      "height": 96,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          48
+        ],
+        [
+          91,
+          48
+        ],
+        [
+          91,
+          96
+        ]
+      ],
+      "startBinding": {
+        "elementId": "api"
+      },
+      "endBinding": {
+        "elementId": "db"
+      },
+      "startElementId": "api",
+      "endElementId": "db",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "label": {
+        "text": "reads/writes"
+      },
+      "version": 2,
+      "updated": 1779355346111
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#1e1e1e",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "api-to-external",
+      "type": "arrow",
+      "x": 940,
+      "y": 284,
+      "width": 80,
+      "height": 96,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -48
+        ],
+        [
+          80,
+          -48
+        ],
+        [
+          80,
+          -96
+        ]
+      ],
+      "startBinding": {
+        "elementId": "api"
+      },
+      "endBinding": {
+        "elementId": "external"
+      },
+      "startElementId": "api",
+      "endElementId": "external",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "label": {
+        "text": "integrates"
+      },
+      "version": 2,
+      "updated": 1779355346111
+    }
+  ],
+  "appState": {
+    "scrollX": -32,
+    "scrollY": 28,
+    "zoom": 1
+  },
+  "files": {}
+}

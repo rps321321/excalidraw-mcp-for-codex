@@ -1,0 +1,347 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex",
+  "elements": [
+    {
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "frame-01-bg",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "version": 1,
+      "updated": 1779355347778
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#0f172a",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "frame-01-title",
+      "type": "rectangle",
+      "x": 48,
+      "y": 42,
+      "width": 864,
+      "height": 82,
+      "label": {
+        "text": "Local-first Excalidraw MCP",
+        "fontSize": 30
+      },
+      "version": 1,
+      "updated": 1779355347778
+    },
+    {
+      "backgroundColor": "#e0f2fe",
+      "strokeColor": "#0369a1",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "codex",
+      "type": "rectangle",
+      "x": 56,
+      "y": 170,
+      "width": 170,
+      "height": 99,
+      "label": {
+        "text": "Codex\nagent",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347778,
+      "boundElements": [
+        {
+          "id": "codex-to-mcp",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#eef2ff",
+      "strokeColor": "#4f46e5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "mcp",
+      "type": "rectangle",
+      "x": 292,
+      "y": 150,
+      "width": 190,
+      "height": 132,
+      "label": {
+        "text": "MCP\nserver",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347778,
+      "boundElements": [
+        {
+          "id": "codex-to-mcp",
+          "type": "arrow"
+        },
+        {
+          "id": "mcp-to-canvas",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#dcfce7",
+      "strokeColor": "#15803d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "canvas",
+      "type": "rectangle",
+      "x": 548,
+      "y": 150,
+      "width": 190,
+      "height": 132,
+      "label": {
+        "text": "Live\ncanvas",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347778,
+      "boundElements": [
+        {
+          "id": "mcp-to-canvas",
+          "type": "arrow"
+        },
+        {
+          "id": "canvas-to-exports",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#fef3c7",
+      "strokeColor": "#b45309",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "exports",
+      "type": "rectangle",
+      "x": 790,
+      "y": 170,
+      "width": 130,
+      "height": 127,
+      "label": {
+        "text": "PNG\nSVG\nJSON",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347778,
+      "boundElements": [
+        {
+          "id": "canvas-to-exports",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#334155",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "codex-to-mcp",
+      "type": "arrow",
+      "x": 233.99919041968892,
+      "y": 218.17684078671172,
+      "width": 50.0016191606222,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50.0016191606222,
+          -0.7114051506592318
+        ]
+      ],
+      "startBinding": {
+        "elementId": "codex"
+      },
+      "endBinding": {
+        "elementId": "mcp"
+      },
+      "startElementId": "codex",
+      "endElementId": "mcp",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347778
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#334155",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "mcp-to-canvas",
+      "type": "arrow",
+      "x": 490,
+      "y": 216,
+      "width": 50,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "mcp"
+      },
+      "endBinding": {
+        "elementId": "canvas"
+      },
+      "startElementId": "mcp",
+      "endElementId": "canvas",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347778
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#334155",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "canvas-to-exports",
+      "type": "arrow",
+      "x": 745.9728823659832,
+      "y": 224.50012000662596,
+      "width": 36.05423526803361,
+      "height": 2.976175081087689,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          36.05423526803361,
+          2.976175081087689
+        ]
+      ],
+      "startBinding": {
+        "elementId": "canvas"
+      },
+      "endBinding": {
+        "elementId": "exports"
+      },
+      "startElementId": "canvas",
+      "endElementId": "exports",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347778
+    },
+    {
+      "backgroundColor": "#fff7ed",
+      "strokeColor": "#ea580c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "loop",
+      "type": "rectangle",
+      "x": 330,
+      "y": 356,
+      "width": 503,
+      "height": 69,
+      "label": {
+        "text": "draw -> inspect -> screenshot -> fix",
+        "fontSize": 20
+      },
+      "version": 1,
+      "updated": 1779355347778
+    }
+  ],
+  "appState": {
+    "scrollX": 48,
+    "scrollY": 96,
+    "zoom": 1
+  },
+  "files": {}
+}

@@ -1,0 +1,948 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex",
+  "elements": [
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#111827",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "role": "title",
+        "diagramKind": "architecture"
+      },
+      "id": "repo-title",
+      "type": "text",
+      "x": 80,
+      "y": 40,
+      "width": 780,
+      "height": 40,
+      "text": "Excalidraw MCP Repository Architecture",
+      "version": 1,
+      "updated": 1779355345030
+    },
+    {
+      "backgroundColor": "#dbeafe",
+      "strokeColor": "#1d4ed8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "repository"
+      },
+      "id": "repo-root",
+      "type": "rectangle",
+      "x": 80,
+      "y": 812,
+      "width": 354,
+      "height": 96,
+      "label": {
+        "text": "excalidraw-mcp-for-codex",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-src",
+          "type": "arrow"
+        },
+        {
+          "id": "repo-root-to-module-examples",
+          "type": "arrow"
+        },
+        {
+          "id": "repo-root-to-module-tests",
+          "type": "arrow"
+        },
+        {
+          "id": "repo-root-to-module-excalidraw-mcp",
+          "type": "arrow"
+        },
+        {
+          "id": "repo-root-to-module-docs",
+          "type": "arrow"
+        },
+        {
+          "id": "repo-root-to-module-agents",
+          "type": "arrow"
+        },
+        {
+          "id": "repo-root-to-module-scripts",
+          "type": "arrow"
+        },
+        {
+          "id": "repo-root-to-module-github",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#dcfce7",
+      "strokeColor": "#15803d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "module"
+      },
+      "id": "module-src",
+      "type": "rectangle",
+      "x": 530,
+      "y": 1484,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "src\n29 files",
+        "fontSize": 17
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-src",
+          "type": "arrow"
+        },
+        {
+          "id": "module-src-to-focus-45-ts-modules",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#475569",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "repo-root-to-module-src",
+      "type": "arrow",
+      "x": 257,
+      "y": 916,
+      "width": 383,
+      "height": 560,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          328
+        ],
+        [
+          383,
+          328
+        ],
+        [
+          383,
+          560
+        ]
+      ],
+      "startBinding": {
+        "elementId": "repo-root"
+      },
+      "endBinding": {
+        "elementId": "module-src"
+      },
+      "startElementId": "repo-root",
+      "endElementId": "module-src",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355345041
+    },
+    {
+      "backgroundColor": "#f8fafc",
+      "strokeColor": "#475569",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "module"
+      },
+      "id": "module-examples",
+      "type": "rectangle",
+      "x": 530,
+      "y": 1292,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "examples\n23 files",
+        "fontSize": 17
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-examples",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#475569",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "repo-root-to-module-examples",
+      "type": "arrow",
+      "x": 257,
+      "y": 916,
+      "width": 383,
+      "height": 368,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          192,
+          0
+        ],
+        [
+          192,
+          368
+        ],
+        [
+          383,
+          368
+        ]
+      ],
+      "startBinding": {
+        "elementId": "repo-root"
+      },
+      "endBinding": {
+        "elementId": "module-examples"
+      },
+      "startElementId": "repo-root",
+      "endElementId": "module-examples",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355345041
+    },
+    {
+      "backgroundColor": "#ede9fe",
+      "strokeColor": "#6d28d9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "module"
+      },
+      "id": "module-tests",
+      "type": "rectangle",
+      "x": 530,
+      "y": 1100,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "tests\n21 files",
+        "fontSize": 17
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-tests",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#475569",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "repo-root-to-module-tests",
+      "type": "arrow",
+      "x": 442,
+      "y": 860,
+      "width": 80,
+      "height": 288,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          192
+        ],
+        [
+          80,
+          192
+        ],
+        [
+          80,
+          288
+        ]
+      ],
+      "startBinding": {
+        "elementId": "repo-root"
+      },
+      "endBinding": {
+        "elementId": "module-tests"
+      },
+      "startElementId": "repo-root",
+      "endElementId": "module-tests",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355345041
+    },
+    {
+      "backgroundColor": "#f8fafc",
+      "strokeColor": "#475569",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "module"
+      },
+      "id": "module-excalidraw-mcp",
+      "type": "rectangle",
+      "x": 530,
+      "y": 908,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": ".excalidraw-mcp\n18 files",
+        "fontSize": 17
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-excalidraw-mcp",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#475569",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "repo-root-to-module-excalidraw-mcp",
+      "type": "arrow",
+      "x": 442,
+      "y": 860,
+      "width": 80,
+      "height": 96,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          48
+        ],
+        [
+          80,
+          48
+        ],
+        [
+          80,
+          96
+        ]
+      ],
+      "startBinding": {
+        "elementId": "repo-root"
+      },
+      "endBinding": {
+        "elementId": "module-excalidraw-mcp"
+      },
+      "startElementId": "repo-root",
+      "endElementId": "module-excalidraw-mcp",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355345041
+    },
+    {
+      "backgroundColor": "#fce7f3",
+      "strokeColor": "#be185d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "module"
+      },
+      "id": "module-docs",
+      "type": "rectangle",
+      "x": 530,
+      "y": 716,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "docs\n15 files",
+        "fontSize": 17
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-docs",
+          "type": "arrow"
+        },
+        {
+          "id": "module-docs-to-focus-11-docs",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#475569",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "repo-root-to-module-docs",
+      "type": "arrow",
+      "x": 442,
+      "y": 860,
+      "width": 80,
+      "height": 96,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -48
+        ],
+        [
+          80,
+          -48
+        ],
+        [
+          80,
+          -96
+        ]
+      ],
+      "startBinding": {
+        "elementId": "repo-root"
+      },
+      "endBinding": {
+        "elementId": "module-docs"
+      },
+      "startElementId": "repo-root",
+      "endElementId": "module-docs",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355345040
+    },
+    {
+      "backgroundColor": "#f8fafc",
+      "strokeColor": "#475569",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "module"
+      },
+      "id": "module-agents",
+      "type": "rectangle",
+      "x": 530,
+      "y": 524,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": ".agents\n3 files",
+        "fontSize": 17
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-agents",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#475569",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "repo-root-to-module-agents",
+      "type": "arrow",
+      "x": 442,
+      "y": 860,
+      "width": 80,
+      "height": 288,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -192
+        ],
+        [
+          80,
+          -192
+        ],
+        [
+          80,
+          -288
+        ]
+      ],
+      "startBinding": {
+        "elementId": "repo-root"
+      },
+      "endBinding": {
+        "elementId": "module-agents"
+      },
+      "startElementId": "repo-root",
+      "endElementId": "module-agents",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355345040
+    },
+    {
+      "backgroundColor": "#f8fafc",
+      "strokeColor": "#475569",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "module"
+      },
+      "id": "module-scripts",
+      "type": "rectangle",
+      "x": 530,
+      "y": 332,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "scripts\n3 files",
+        "fontSize": 17
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-scripts",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#475569",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "repo-root-to-module-scripts",
+      "type": "arrow",
+      "x": 257,
+      "y": 804,
+      "width": 383,
+      "height": 368,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          192,
+          0
+        ],
+        [
+          192,
+          -368
+        ],
+        [
+          383,
+          -368
+        ]
+      ],
+      "startBinding": {
+        "elementId": "repo-root"
+      },
+      "endBinding": {
+        "elementId": "module-scripts"
+      },
+      "startElementId": "repo-root",
+      "endElementId": "module-scripts",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355345041
+    },
+    {
+      "backgroundColor": "#f8fafc",
+      "strokeColor": "#475569",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "module"
+      },
+      "id": "module-github",
+      "type": "rectangle",
+      "x": 530,
+      "y": 140,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": ".github\n2 files",
+        "fontSize": 17
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "repo-root-to-module-github",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#475569",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "repo-root-to-module-github",
+      "type": "arrow",
+      "x": 257,
+      "y": 804,
+      "width": 383,
+      "height": 560,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -520
+        ],
+        [
+          383,
+          -520
+        ],
+        [
+          383,
+          -560
+        ]
+      ],
+      "startBinding": {
+        "elementId": "repo-root"
+      },
+      "endBinding": {
+        "elementId": "module-github"
+      },
+      "startElementId": "repo-root",
+      "endElementId": "module-github",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 2,
+      "updated": 1779355345041
+    },
+    {
+      "backgroundColor": "#dcfce7",
+      "strokeColor": "#15803d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "implementation"
+      },
+      "id": "focus-45-ts-modules",
+      "type": "rectangle",
+      "x": 846,
+      "y": 1484,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "45 TS modules",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "module-src-to-focus-45-ts-modules",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#15803d",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "module-src-to-focus-45-ts-modules",
+      "type": "arrow",
+      "x": 758,
+      "y": 1532,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "module-src"
+      },
+      "endBinding": {
+        "elementId": "focus-45-ts-modules"
+      },
+      "startElementId": "module-src",
+      "endElementId": "focus-45-ts-modules",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "label": {
+        "text": "implements"
+      },
+      "version": 2,
+      "updated": 1779355345040
+    },
+    {
+      "backgroundColor": "#fce7f3",
+      "strokeColor": "#be185d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "metadata": {
+        "semanticType": "documentation"
+      },
+      "id": "focus-11-docs",
+      "type": "rectangle",
+      "x": 846,
+      "y": 716,
+      "width": 220,
+      "height": 96,
+      "label": {
+        "text": "11 docs",
+        "fontSize": 20
+      },
+      "version": 2,
+      "updated": 1779355345040,
+      "boundElements": [
+        {
+          "id": "module-docs-to-focus-11-docs",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#be185d",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "module-docs-to-focus-11-docs",
+      "type": "arrow",
+      "x": 758,
+      "y": 764,
+      "width": 80,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "startBinding": {
+        "elementId": "module-docs"
+      },
+      "endBinding": {
+        "elementId": "focus-11-docs"
+      },
+      "startElementId": "module-docs",
+      "endElementId": "focus-11-docs",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "label": {
+        "text": "explains"
+      },
+      "version": 2,
+      "updated": 1779355345040
+    }
+  ],
+  "appState": {
+    "scrollX": -32,
+    "scrollY": 56,
+    "zoom": 1
+  },
+  "files": {}
+}

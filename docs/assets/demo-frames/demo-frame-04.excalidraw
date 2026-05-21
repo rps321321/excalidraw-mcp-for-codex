@@ -1,0 +1,270 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "excalidraw-mcp-for-codex",
+  "elements": [
+    {
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "frame-04-bg",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 960,
+      "height": 540,
+      "version": 1,
+      "updated": 1779355347877
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "strokeColor": "#0f172a",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "frame-04-title",
+      "type": "rectangle",
+      "x": 48,
+      "y": 42,
+      "width": 864,
+      "height": 82,
+      "label": {
+        "text": "Better imports become editable diagrams",
+        "fontSize": 30
+      },
+      "version": 1,
+      "updated": 1779355347877
+    },
+    {
+      "backgroundColor": "#f8fafc",
+      "strokeColor": "#475569",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "sources",
+      "type": "rectangle",
+      "x": 64,
+      "y": 152,
+      "width": 220,
+      "height": 264,
+      "label": {
+        "text": "Source files\n\nOpenAPI\npackage.json\nSQL\nMarkdown\nPlantUML\nStructurizr",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347877,
+      "boundElements": [
+        {
+          "id": "sources-parser",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#eef2ff",
+      "strokeColor": "#4f46e5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "parser",
+      "type": "rectangle",
+      "x": 374,
+      "y": 190,
+      "width": 234,
+      "height": 112,
+      "label": {
+        "text": "Zod-validated\nimporters",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347877,
+      "boundElements": [
+        {
+          "id": "sources-parser",
+          "type": "arrow"
+        },
+        {
+          "id": "parser-scene",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "#dcfce7",
+      "strokeColor": "#15803d",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "scene",
+      "type": "rectangle",
+      "x": 654,
+      "y": 160,
+      "width": 247,
+      "height": 182,
+      "label": {
+        "text": "Editable scene\n\nstable IDs\nbound labels\narrow bindings",
+        "fontSize": 22
+      },
+      "version": 1,
+      "updated": 1779355347877,
+      "boundElements": [
+        {
+          "id": "parser-scene",
+          "type": "arrow"
+        }
+      ]
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#334155",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "sources-parser",
+      "type": "arrow",
+      "x": 291.9431332136458,
+      "y": 269.8617064286482,
+      "width": 74.11373357270838,
+      "height": 8.8842961380534,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          74.11373357270838,
+          -8.8842961380534
+        ]
+      ],
+      "startBinding": {
+        "elementId": "sources"
+      },
+      "endBinding": {
+        "elementId": "parser"
+      },
+      "startElementId": "sources",
+      "endElementId": "parser",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347877
+    },
+    {
+      "backgroundColor": "transparent",
+      "strokeColor": "#334155",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "groupIds": [],
+      "locked": false,
+      "id": "parser-scene",
+      "type": "arrow",
+      "x": 615.9987819880321,
+      "y": 248.181479615847,
+      "width": 30.002436023935843,
+      "height": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          30.002436023935843,
+          0.5236027229308036
+        ]
+      ],
+      "startBinding": {
+        "elementId": "parser"
+      },
+      "endBinding": {
+        "elementId": "scene"
+      },
+      "startElementId": "parser",
+      "endElementId": "scene",
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "version": 1,
+      "updated": 1779355347877
+    },
+    {
+      "backgroundColor": "#fff7ed",
+      "strokeColor": "#ea580c",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "roundness": {
+        "type": 3
+      },
+      "groupIds": [],
+      "locked": false,
+      "id": "note",
+      "type": "rectangle",
+      "x": 314,
+      "y": 374,
+      "width": 776,
+      "height": 69,
+      "label": {
+        "text": "imports start the diagram; agents still inspect and refine",
+        "fontSize": 20
+      },
+      "version": 1,
+      "updated": 1779355347877
+    }
+  ],
+  "appState": {
+    "scrollX": 48,
+    "scrollY": 96,
+    "zoom": 1
+  },
+  "files": {}
+}
